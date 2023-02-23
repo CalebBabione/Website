@@ -128,21 +128,17 @@ nav .fa-solid{
     text-align: center;
 }
 .project1{
-    display: flex;
-    margin-left: 7vw;
+    text-align: center;
 }
 .project-img{
     border-radius: 20px;
     padding: 10px;
-    max-width: 99%;
-    max-height: 99%;
+    width: 500px;
 }
 
 
 @media (max-width: 700px){
     .project1{
-        margin-right: 6vw;
-        display: block;
         text-align: center;
     }
 }
