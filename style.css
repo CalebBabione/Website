@@ -133,7 +133,8 @@ nav .fa-solid{
 .project-img{
     border-radius: 20px;
     padding: 10px;
-    width: 400px;
+    max-width: 99%;
+    max-height: 99%;
 }
 
 
