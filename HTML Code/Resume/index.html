@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/ef9d9993d4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section>
+            <header class="header">
+                    <nav class="link-list">
+                        <a><img src="images/profilePic.jpg"/></a>
+                        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                        <ul id="menu1">
+                            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                            <li class="menu"><a>HOME</a></li>
+                            <li class="menu"><a>ABOUT</a></li>
+                            <li class="menu"><a>PRODUCT</a></li>
+                            <li class="menu"><a>CONTACT</a></li>
+                        </ul>
+                    </nav>  
+                <div class="main-button">
+                    <h1>This is a demo website</h1>
+                    <p>hope you enjoy</p>
+                    <a href="">click here</a>
+                </div>
+  
+            </header>
+        </section>
+    </body>
+
+
+    <!--openMenu-->
+    <script>
+        let menu1 = document.getElementById("menu1");
+        function openMenu(){
+            menu1.style.right = "0";
+        } 
+        function closeMenu(){
+            menu1.style.right = "-300px";
+        }
+
+    </script>
+</html>

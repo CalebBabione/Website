@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pls buy me :)</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/ef9d9993d4.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="header">
+            <!--Navigation-->
+            <nav>
+                    <div class="image">
+                        <a><img src="images/logo.png"/></a>
+                    </div>
+                    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                <ul class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PURCHASE</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!--Take me down the site-->
+            <div class="btn">
+                <h1>Welcome</h1>
+                <p>Do you like what you see</p>
+                <div><a href="">click here</a></div>
+            </div>
+        </section>
+
+        <!--ABOUT-->
+        <section class="about">
+            <h1 id="about-title">ABOUT</h1>
+            <p>do you like what you see? <br> well here is a demo of what I can do</p>
+
+
+            <div class="images">
+                <a><img src="images/mc1.png"/></a>
+                <a><img src="images/mc2.png"/></a>
+                <a><img src="images/mc3.png"/></a>
+            </div>
+        </section>
+
+        <!--PURCHASE-->
+            <section>
+                <h1>You Should Purchase this :)</h1>
+                <p> if you like what you see,<br> you can get into contact with me here.</p>
+            </section>
+
+        <!--CONTACT-->
+            <section class="contact">
+                <div>
+                    <a href="https://discord.com/" target="_blank"><img src="images/discord-mascot.png"/></a>
+                    <p>My username is Buddy#1905</p>
+                </div>
+                <div>
+                    <a href=""><img/></a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/caleb-babione-4b2b6625a/" target="_blank"><img src="images/LinkedIN.png"/></a>
+                    <p>LinkedIn</p>
+                </div>
+            </section>
+
+
+    </body>
+
+
+
+    <!--script for the menu-->
+    <script>
+
+        let navLinks = document.getElementById("navLinks");
+        function openMenu(){
+            navLinks.style.right = "0";
+        }
+        function closeMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width" initial scale="1.0">
+        <title>Caleb Babione</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/ef9d9993d4.js" crossorigin="anonymous"></script>
+    </head>
+            <section class="header" id="header">
+                <nav>
+                    <a href="index.html" ><img src="images/profilePic.jpg"/></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                        <ul>
+                            <li><a href="#header">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#projects">PROJECTS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                </nav>
+                <div class="text-box">
+                    <h1>All about me</h1>
+                    <p>Hi welcome to my website. <br> If you like what you see click the button below to learn more.</p>
+
+                    <a href="#about" class="hero-btn">Click this to learn more</a>
+                    
+                </div>
+            </section>
+            
+
+            <!--About-->
+            <section class="about" id="about">
+                <h1><br><br><br><br>All about me!</h1>
+                    <div class="paragraph">
+                    <p><br>I'm Caleb Babione, A student at canadian valley technology center. <br> 
+                    Here I've learned many things from the, bare bones of a computer, all the way to running my own network. <br>
+                    Some of my hobies include learning about anything new, Playing games like <strong><a class="wiki" href="">MTG</a></strong> and <strong><a class="wiki" href=""> Yugioh</a></strong>.<br>
+                    As far as projects relevant to my carrer choice I've been running my own mc-server and I'm working on this website <br>
+                    (Find out more in projects)</p><br><br><br><br><br>
+                </div>
+            </section>
+
+            <!--Projects-->
+            <section class="project" id="projects">
+                <h1>projects</h1>
+                <p>Here are some pictures of my MC Server that I host <br>
+                I run it on ubuntu server.</p>
+            </section>
+
+
+            <section class="project1" id="project1">
+                <div class="im1">
+                    <img class="project-img" src="images/mc1.png"/>
+                </div>
+                <div class="im1">
+                    <img class="project-img"  src="images/mc2.png"/>
+                </div>
+                <div class="im1">
+                    <img class="project-img"  src="images/mc3.png"/>
+                    <p><br><br><br><br></p>
+                </div>
+                
+            </section>
+
+
+        <!--contact-->
+            <section class="contact" id="contact">
+                <div Class="header-contact">
+                    <h1>Ways to Contact Me<br><br></h1>
+                </div>
+                <!--Contact Methods-->
+                <ul class="contact-method">
+                    <li><a href=""><img src="images/discord-mascot.png" href=""/></a><br>Buddy#1905</li>
+                    <li><a href="https://www.linkedin.com/in/caleb-babione-4b2b6625a/"><img id="linkin"src="images/LinkedIN.png"></li><a><br><br></li>
+                    <li><h1>Email: Caleb.b@tutanota.com</h1></li>
+                    <li><h1>PHONE: (405)686-8875</h1><br><br></li>
+                </ul>
+            </section>
+    <body>
+    </body>
+
+    <!--Script for Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function openMenu(){
+                navLinks.style.right = "0";
+        }
+        function closeMenu(){
+                navLinks.style.right = "-200px";
+        }
+    </script>
+</html>
